@@ -1,6 +1,8 @@
 # TikTok Creator Analytics: What Drives Views on a Short-Form Video Account?
 
-Performance analysis of a short-form video account I operate and manage (198 posts), using TikTok Studio analytics. As of November 24, 2026, the account had **198 posts, 370 followers, and 52.5K likes** on its public profile (TikTok Studio shows 53K likes). Two findings run the whole operation: almost all discovery comes through Search, and serialized storyline content dominates everything else.
+Performance analysis of a short-form video account I operate and manage (198 posts), using TikTok Studio analytics. As of November 24, 2026, the account had **198 posts, 370 followers, and 52.5K likes** on its public profile (TikTok Studio shows 53K likes).
+
+**Headline finding — verifiable from the export in this repo: November 19–20 accounted for 45,519 of 63,938 views, or 71.2% of the week's total.**
 
 > Titles and creator details are anonymized in the public datasets; metrics are as reported by TikTok Studio.
 
@@ -23,20 +25,7 @@ For context, the last 28 days (October 26 – November 22, 2026) showed 77.3K vi
 
 ## Key findings
 
-### 1. Discovery is Search, not For You
-
-Traffic source, shown the same in both the 7-day and 28-day Overview:
-
-| Source | Share |
-| --- | ---: |
-| Search | 91.7% |
-| Personal profile | 4.2% |
-| For You | 4.0% |
-| Following | 0.1% |
-
-Because about 92% of traffic is Search, video titles and captions are written around clear, searchable keywords that describe the content — that is a deliberate, data-driven choice for this account, not a style preference. The top video makes the point on its own: 99.1% of its traffic came from Search, and it brought in +235 followers.
-
-### 2. Two days produced most of a week's views
+### 1. Two days produced most of a week's views
 
 ![Daily Video Views — Nov 16-22, 2026](outputs/daily_views.png)
 
@@ -51,9 +40,22 @@ Because about 92% of traffic is Search, video titles and captions are written ar
 | Nov 22 | 7,603 |
 | **Week total** | **63,938** |
 
-Nov 16–18 averaged **972 views per day**. Nov 19 was **17.98×** that baseline and Nov 20 peaked at **28,041 views, 28.85×** the baseline. Together, Nov 19–20 delivered **45,519 views — 71.19% of the entire week's views in 2 of 7 days**.
+Nov 16–18 averaged **972 views per day**. Nov 19 was **17.98×** that baseline and Nov 20 peaked at **28,041 views, 28.85×** the baseline. Together, November 19–20 accounted for **45,519 of 63,938 views, or 71.2% of the week's total** — in 2 of 7 days. Every number in this finding comes from the CSV export in `data/`, so a reader can verify it directly.
 
 The spike coincided with a new multi-part storyline series launched on November 19. The top videos in the last 7 days were installments of that series, led by Series A, Part 1 (13K window views, 99.2% Search) and Series A, Part 2 (9,233 all-time views, 94.4% Search).
+
+### 2. Separate observation: discovery is Search, not For You
+
+Traffic-source share is **a separate observation from TikTok Studio's Overview for November 16–22, 2026** — it is not part of the CSV export above. Studio's Overview for that window showed:
+
+| Source | Share |
+| --- | ---: |
+| Search | 91.7% |
+| Personal profile | 4.2% |
+| For You | 4.0% |
+| Following | 0.1% |
+
+Because about 92% of traffic is Search, video titles and captions are written around clear, searchable keywords that describe the content — that is a deliberate, data-driven choice for this account, not a style preference. The top video makes the point on its own: 99.1% of its traffic came from Search, and it brought in +235 followers.
 
 ### 3. Serialized storyline content dominates the all-time top 10
 
